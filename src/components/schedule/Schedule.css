@@ -1,0 +1,230 @@
+.schedule-container {
+  width: 396px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 76px;
+  overflow: auto;
+  background-color: #ffffff;
+  padding: 33px 43px 33px 40px;
+}
+.schedule-content {
+  margin-bottom: 200px;
+}
+.schedule-container .today {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #005555;
+}
+
+.schedule-container .dash-calender {
+  width: 78px;
+  height: 29px;
+  background: #f4f4f4;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.schedule-container .new-task {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #005555;
+  margin: 28px 0 19px 0;
+}
+
+.schedule-container .label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #768396;
+  margin-bottom: 18px;
+}
+
+.schedule-container .schedule-input {
+  width: 100%;
+  height: 40px;
+  background: #e8edf1;
+  border-radius: 7px;
+  border: none;
+}
+
+.schedule-container .schedule-input::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  color: #738383;
+  padding: 0 12px;
+}
+
+.schedule-container .emoji {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 0 26px 0;
+  border-bottom: 1px solid #e8edf1;
+}
+
+.schedule-container .add-colloborator {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  color: #768396;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.schedule-container .colloborator-items {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e8edf1;
+}
+
+.schedule-container .colloborator-item {
+  background: #e8e8ff;
+  border-radius: 17.5px;
+  height: 34px;
+  padding: 0 6px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.schedule-container .collo-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  padding: 0 6px 0 3px;
+}
+
+.schedule-container .collo-img {
+  border-radius: 50%;
+}
+.schedule-container .name1 {
+  color: #5051f9;
+}
+
+.schedule-container .name2 {
+  color: #1ea7ff;
+}
+
+.schedule-container .add-collob {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #232360;
+  height: 35px;
+  width: 35px;
+  background-color: #e8edf1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.schedule-container .nav-collob {
+  background: #4ba8a8;
+  height: 36px;
+  width: 36px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.schedule-container .form-input {
+  position: relative;
+}
+
+.schedule-container .calender {
+  position: absolute;
+  right: 12px;
+  margin-top: 12px;
+}
+.schedule-container .start-date {
+  margin-bottom: 33px;
+}
+
+.schedule-container .end-date {
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e8edf1;
+}
+
+.schedule-container .btn {
+  width: 77px;
+  height: 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffffff;
+  background: #e3e8ee;
+  box-shadow: 0px 8px 20px rgba(227, 232, 238, 0.24);
+  border-radius: 7px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.schedule-container .save-btn {
+  text-align: right;
+  padding: 28px 0 14px 0;
+  margin-bottom: 13px;
+  border-bottom: 1px solid #e8edf1;
+}
+
+.schedule-container .message {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #005555;
+  margin-bottom: 20px;
+}
+
+.schedule-container .sender {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #005555;
+}
+
+.schedule-container .chat {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 5px;
+  color: #768396;
+}
+
+.schedule-container .sender-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-container .chat-content {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.schedule-container .messenger {
+  border-radius: 50%;
+  border: 1px solid #f8b400;
+  padding: 2px;
+  margin-right: 14px;
+}

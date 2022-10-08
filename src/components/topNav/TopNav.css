@@ -1,0 +1,76 @@
+.topnav-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.topnav-content {
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px 0 94px;
+
+  background-color: #ffffff;
+}
+.topnav-content .items {
+  display: flex;
+  align-items: center;
+}
+.topnav-content .dp {
+  margin: 0 17px 0 33px;
+  cursor: pointer;
+}
+.topnav-content .search-items {
+  position: relative;
+}
+.topnav-content .notification-item {
+  position: relative;
+  cursor: pointer;
+}
+.topnav-content .notification {
+  position: absolute;
+  top: -3px;
+  right: -4px;
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  background-color: #4ba8a8;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topnav-content .search-input {
+  width: 290px;
+  height: 44px;
+  background: #f3f7fa;
+  border-radius: 7px;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.topnav-content .search-input::placeholder {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.topnav-content .search-icon {
+  position: absolute;
+  right: 20px;
+  margin-top: 13px;
+  cursor: pointer;
+}
+.topnav-content .search-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
