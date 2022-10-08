@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Group1, Group2, Group3, Group4, Group5, Group6 } from '../../shared/icons';
-import Logo from '../../shared/icons/logo';
+import { Group1, Group2, Group3, Group4, Group5, Group6 } from '../../../shared/icons';
+import Logo from '../../../shared/icons/logo';
 import "./SideBar.css";
 
 const SideBar = () => {

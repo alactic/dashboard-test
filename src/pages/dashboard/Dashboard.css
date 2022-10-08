@@ -2,4 +2,11 @@
   margin: 76px 0 0 94px;
   min-height: 90vh;
   background-color: #f3f4f8;
+  width: 66%;
+  /* position: fixed; */
+}
+
+.dashboard-container .dashboard-content {
+  position: relative;
+  padding: 20px 40px;
 }

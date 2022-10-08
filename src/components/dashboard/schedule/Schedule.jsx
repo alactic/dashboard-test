@@ -1,9 +1,9 @@
 import React from 'react';
-import Colloborator1 from "../../assets/images/colloborator1.jpeg"
-import Colloborator2 from "../../assets/images/colloborator2.jpeg"
-import Sender1 from "../../assets/images/sender1.jpeg"
-import Sender2 from "../../assets/images/sender2.jpeg"
-import { ArrowLeft, ArrowRight, Calender, CancelIcon, Dashboard } from '../../shared/icons';
+import Colloborator1 from "../../../assets/images/colloborator1.jpeg"
+import Colloborator2 from "../../../assets/images/colloborator2.jpeg"
+import Sender1 from "../../../assets/images/sender1.jpeg"
+import Sender2 from "../../../assets/images/sender2.jpeg"
+import { ArrowLeft, ArrowRight, Calender, CancelIcon, Dashboard } from '../../../shared/icons';
 
 import './Schedule.css';
 

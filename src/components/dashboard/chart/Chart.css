@@ -1,0 +1,40 @@
+.chart-container {
+}
+
+.chart-container .task-down-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 27px 24px 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  margin-top: 21px;
+}
+
+.chart-container .task-down {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #005555;
+}
+
+.chart-container .freq {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #005555;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.chart-container .active {
+  padding-bottom: 4px;
+  border-bottom: 2px solid#F8B400;
+  color: #f8b400;
+}
+
+.chart-container .freq-items {
+  display: flex;
+}

@@ -1,0 +1,76 @@
+.task-breakdown-container .task-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #8c97a8;
+  display: flex;
+  align-items: center;
+}
+
+.task-breakdown-container .task-icon {
+  width: 34px;
+  height: 34px;
+  background: #f3f7fd;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.task-breakdown-container .task-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 22px 20px 33px 20px;
+}
+
+.task-breakdown-container .task-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-breakdown-container .task-count {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #1e1e1e;
+}
+
+.task-breakdown-container .title-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 28px;
+  border-bottom: 1px solid#E8EDF1;
+}
+
+.task-breakdown-container .graph-more {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 11px;
+}
+
+.task-breakdown-container .more {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #768396;
+}
+
+.task-breakdown-container .more-count {
+  color: #299702;
+}
+
+.task-breakdown-container .from {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #768396;
+  margin-top: 4px;
+}
+
+.task-breakdown-container .cards {
+  display: flex;
+  justify-content: space-between;
+}

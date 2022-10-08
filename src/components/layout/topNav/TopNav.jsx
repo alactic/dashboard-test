@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Bell, ProfileDp, SearchIcon } from '../../shared/icons';
+import { ArrowDown, Bell, ProfileDp, SearchIcon } from '../../../shared/icons';
 import './TopNav.css';
 
 const TopNav = () => {
