@@ -1,5 +1,4 @@
 export {default as Bell} from "./bell"
-export {default as ProfileDp} from "./profileDp"
 export {default as ArrowDown} from "./arrow-down"
 export {default as SearchIcon} from "./search"
 export {default as LogoIcon} from "./logo"

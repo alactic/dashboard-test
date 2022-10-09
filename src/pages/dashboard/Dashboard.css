@@ -2,11 +2,21 @@
   margin: 76px 0 0 94px;
   min-height: 90vh;
   background-color: #f3f4f8;
-  width: 66%;
   /* position: fixed; */
 }
 
 .dashboard-container .dashboard-content {
   position: relative;
   padding: 20px 40px;
+  margin-right: 370px;
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard-container {
+    margin: 76px 0 0 0;
+  }
+  .dashboard-container .dashboard-content {
+    margin-right: 0;
+    padding: 20px 20px;
+  }
 }

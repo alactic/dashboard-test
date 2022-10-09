@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 2000;
 }
 
 .sidebar-container .logo {
@@ -42,9 +43,29 @@
   border-radius: 14px;
 }
 
+.sidebar-container .group:hover {
+  background-color: #f3f7fa;
+}
+
 .sidebar-container .active {
   background-color: #005555;
 }
-.sidebar-container .group:hover {
-  background-color: #f3f7fa;
+
+@media screen and (max-width: 767px) {
+  .sidebar-container {
+    top: 76px;
+    width: 72px;
+  }
+  .hide-sidebar-mobile {
+    display: none;
+  }
+  .sidebar-container .logo {
+    margin: 25px 0 58px 0;
+  }
+  .sidebar-container .logo-icon {
+    display: none;
+  }
+  .sidebar-container .group:hover {
+    background-color: #005555;
+  }
 }

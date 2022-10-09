@@ -106,6 +106,8 @@
   border-radius: 16px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  width: 100%;
+  overflow: auto;
 }
 
 .tasks-container #table {
