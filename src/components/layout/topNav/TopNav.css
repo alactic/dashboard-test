@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 767px) {
   .topnav-content .search-input {
-    width: 80%;
+    width: 70%;
   }
   .topnav-content .logo {
     display: block;

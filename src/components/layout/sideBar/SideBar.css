@@ -45,6 +45,7 @@
 
 .sidebar-container .group:hover {
   background-color: #f3f7fa;
+  border-radius: 14px;
 }
 
 .sidebar-container .active {
@@ -67,5 +68,6 @@
   }
   .sidebar-container .group:hover {
     background-color: #005555;
+    border-radius: 14px;
   }
 }
