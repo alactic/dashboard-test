@@ -36,7 +36,6 @@
   background: #f3f4f8;
 }
 
-
 .schedule-content {
   margin-bottom: 200px;
 }
@@ -84,6 +83,7 @@
   border-radius: 7px;
   border: none;
   padding: 0 12px;
+  position: relative;
 }
 
 .schedule-container .schedule-input::placeholder {
@@ -191,6 +191,7 @@
   position: absolute;
   right: -10px;
   margin-top: 12px;
+  z-index: 10;
 }
 .schedule-container .start-date {
   margin-bottom: 33px;
@@ -283,5 +284,13 @@
   .schedule-content {
     margin-bottom: 0;
     padding: 33px 23px 33px 20px;
+  }
+
+  .schedule-container .schedule-input {
+    width: 93%;
+  }
+
+  .schedule-container .calender {
+    right: 15px;
   }
 }
