@@ -8,6 +8,35 @@
   background-color: #ffffff;
   padding: 33px 43px 33px 40px;
 }
+
+.schedule-container {
+  scrollbar-width: thin;
+  scrollbar-color: #f3f4f8 #f3f4f8;
+}
+/* width */
+.schedule-container::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+.schedule-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f3f4f8;
+  border-radius: 5px;
+}
+
+/* Handle */
+.schedule-container::-webkit-scrollbar-thumb {
+  background: #f3f4f8;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.schedule-container::-webkit-scrollbar-thumb:hover {
+  background: #f3f4f8;
+}
+
+
 .schedule-content {
   margin-bottom: 200px;
 }

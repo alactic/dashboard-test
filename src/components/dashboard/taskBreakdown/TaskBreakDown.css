@@ -81,3 +81,31 @@
   justify-content: space-between;
   overflow: auto;
 }
+
+.task-breakdown-container .cards {
+  scrollbar-width: thin;
+  scrollbar-color: #f3f4f8 #f3f4f8;
+}
+/* width */
+.task-breakdown-container .cards::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+.task-breakdown-container .cards::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f3f4f8;
+  border-radius: 5px;
+}
+
+/* Handle */
+.task-breakdown-container .cards::-webkit-scrollbar-thumb {
+  background: #f3f4f8;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.task-breakdown-container .cards::-webkit-scrollbar-thumb:hover {
+  background: #f3f4f8;
+}
+

@@ -6,6 +6,35 @@
   overflow: auto;
 }
 
+.chart-container {
+  scrollbar-width: thin;
+  scrollbar-color: #f3f4f8 #f3f4f8;
+}
+/* width */
+.chart-container::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+.chart-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f3f4f8;
+  border-radius: 5px;
+}
+
+/* Handle */
+.chart-container::-webkit-scrollbar-thumb {
+  background: #f3f4f8;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.chart-container::-webkit-scrollbar-thumb:hover {
+  background: #f3f4f8;
+}
+
+
+
 .chart-container .task-down-title {
   display: flex;
   justify-content: space-between;
