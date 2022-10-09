@@ -16,7 +16,7 @@ const SideBar = ({sidebarToggle}) => {
         </div>
         <div>
           {[Group1,Group2,Group3,Group4,Group5,Group6].map((Val, i) => (
-            <div className={`group ${active === i+1 && 'active'}`} onClick={()=>setActive(i+1)}><Val colorState={active === i+1}/></div>
+            <div key={i} className={`group ${active === i+1 && 'active'}`} onClick={()=>setActive(i+1)}><Val colorState={active === i+1}/></div>
           ))}
          </div>
       </div>
