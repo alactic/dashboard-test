@@ -33,8 +33,6 @@
   background: #f3f4f8;
 }
 
-
-
 .chart-container .task-down-title {
   display: flex;
   justify-content: space-between;
@@ -68,6 +66,7 @@
 
 .chart-container .freq-items {
   display: flex;
+  padding-right: 10px;
 }
 
 .canvasjs-chart-credit {
