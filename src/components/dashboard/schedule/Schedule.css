@@ -84,6 +84,7 @@
   border: none;
   padding: 0 12px;
   position: relative;
+  width: 93%;
 }
 
 .schedule-container .schedule-input::placeholder {
@@ -189,7 +190,7 @@
 
 .schedule-container .calender {
   position: absolute;
-  right: -10px;
+  right: 10px;
   margin-top: 12px;
   z-index: 10;
 }
